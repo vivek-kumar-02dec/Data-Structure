@@ -3,4 +3,4 @@
 
 ## 📂 Topics
 
-- 🔹 [Array](./array)
+- [Array](./Array)
