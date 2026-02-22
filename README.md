@@ -3,4 +3,7 @@
 
 ## 📂 Topics
 
-- [Array](./Array)
+- [Array](./array)
+- [Sliding Window](./Sliding)
+- [Dynamic Programming](./DP)
+- [String](./array)
