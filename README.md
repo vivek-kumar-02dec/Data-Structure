@@ -3,7 +3,10 @@
 
 ## 📂 Topics
 
-- [Array](./array)
-- [Sliding Window](./Sliding)
+- [Daily Quetions](./Daily_Question)
+- [Binary Tree](./Binary_Tree)
 - [Dynamic Programming](./DP)
-- [String](./array)
+- [Greedy](./Greedy)
+- [String](./String)
+- [Array](./array)
+- [Sliding Window](./Sliding Window)
