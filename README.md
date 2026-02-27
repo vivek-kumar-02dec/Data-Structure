@@ -2,7 +2,7 @@
 # 📚 DSA Repository
 
 ## 📂 Topics
-
+<div style="none">
 - [Daily Quetions](./Daily_Question)
 - [Binary Tree](./Binary_Tree)
 - [Dynamic Programming](./DP)
@@ -10,3 +10,4 @@
 - [String](./String)
 - [Array](./array)
 - [Sliding Window](./Sliding_Window)
+</div>
