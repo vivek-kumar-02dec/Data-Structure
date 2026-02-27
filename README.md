@@ -9,4 +9,4 @@
 - [Greedy](./Greedy)
 - [String](./String)
 - [Array](./array)
-- [Sliding Window](./Sliding Window)
+- [Sliding Window](./Sliding_Window)
