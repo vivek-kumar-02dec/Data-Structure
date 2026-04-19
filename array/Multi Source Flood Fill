@@ -1,0 +1,23 @@
+class Solution {
+public:
+    vector<vector<int>> colorGrid(int n, int m, vector<vector<int>>& sources) {
+        sort(sources.begin(),sources.end(),[](const vector<int>&a,const vector<int>&b){
+            return a[2]>b[2];
+        });
+        vector<vector<int>> nums(n,vector<int>(m,0));
+        int dir[4][2]={{1,0},{0,1},{-1,0},{0,-1}};
+        for(auto it:sources)
+            nums[it[0]][it[1]]=it[2];
+        for(int k=0;k<sources.size();k++){
+            for(auto [x,y]:dir){
+                int nx=x+sources[k][0];
+                int ny=y+sources[k][1];
+                if(nx>=0 && ny>=0 && nx<n && ny<m && nums[nx][ny]==0){
+                    nums[nx][ny]=sources[k][2];
+                    sources.push_back({nx,ny,sources[k][2]});
+                }
+            }
+        }
+        return nums;
+    }
+};
