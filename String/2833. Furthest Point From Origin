@@ -1,0 +1,13 @@
+class Solution {
+public:
+    int furthestDistanceFromOrigin(string moves) {
+        int left=0,right=0;
+        for(int i=0;i<moves.size();i++){
+            if(moves[i]=='R') left--;
+            else left++;
+            if(moves[i]=='L') right--;
+            else right++;
+        }   
+        return max(left,right);
+    }
+};
