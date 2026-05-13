@@ -3,8 +3,6 @@ public:
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
         if (n == 0) return 0;
-
-        // Unlimited transactions case
         if (k >= n / 2) {
             int profit = 0;
             for (int i = 1; i < n; i++) {
